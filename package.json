@@ -1,0 +1,36 @@
+{
+  "name": "chatserver",
+  "version": "1.0.0",
+  "description": "A Simple Socket.IO Chat Server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node node_modules/eslint/bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasveigaf/chatserver.git"
+  },
+  "keywords": [
+    "chat",
+    "real-time",
+    "socket.io",
+    "node.js"
+  ],
+  "author": "Lucas Veiga Fujicava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasveigaf/chatserver/issues"
+  },
+  "homepage": "https://github.com/lucasveigaf/chatserver#readme",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.2"
+  }
+}
