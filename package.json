@@ -4,7 +4,8 @@
   "description": "A Simple Socket.IO Chat Server",
   "main": "index.js",
   "scripts": {
-    "lint": "node node_modules/eslint/bin/eslint ."
+    "lint": "node node_modules/eslint/bin/eslint .",
+    "documentation": "documentation build -f html -o docs"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
+    "documentation": "^8.1.2",
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.0.1",
